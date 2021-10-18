@@ -1,4 +1,4 @@
-import Manny from './index';
+import Manny from "./index";
 
 // wrap everything inside a function scope and invoke it (IIFE, a.k.a. SEAF)
 (() => {
@@ -8,7 +8,5 @@ import Manny from './index';
   });
   window.manny = manny;
 
-  manny.do('wave', { loop: true }).then(event => {
-    console.log('Action completed!', event);
-  });
+  manny.addLoot("book");
 })();

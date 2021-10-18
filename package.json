@@ -1,7 +1,7 @@
 {
-  "name": "manny",
-  "version": "2.3.15",
-  "description": "npm package for importing @mannynotfound into your website.",
+  "name": "manny-with-loot",
+  "version": "1.0.0",
+  "description": "npm package for importing @mannynotfound into your website, with loot.",
   "main": "./lib/manny.js",
   "scripts": {
     "dev": "webpack-dev-server --config webpack.dev.config.js --mode development --open",
